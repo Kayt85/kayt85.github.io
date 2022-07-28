@@ -2,10 +2,112 @@
 <html lang="zxx" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Navbars Assignment</title>
+    <title>Navbar 3</title>
     <style media="screen">
+    main{
+      margin: 100px;
+      background-color: #ee6c4d;
+      padding: 30px;
+      border-radius: 10px;
+    }
+    header{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      font-size: 30px;
+      font-family: monospace;
+      background-color: white;
+      color: #98c1d9;
+      border: 3px solid #98c1d9;
+      border-radius: 10px;
+    }
+    nav{
+      background-color: white;
+      border: 3px solid #98c1d9;
+      border-radius: 10px;
+
+    }
+
+    nav ul{
+      display: flex;
+      padding: 20px;
+    }
+    nav li{
+      list-style-type: none;
+      padding: 20px;
+      margin-left: 15px;
+    }
+    .dog{
+      width:100px;
+    }
+    .dog:hover{
+      width:150px;
+    }
+    .cat{
+      width: 100px;
+    }
+    .cat:hover{
+      width:150px;
+    }
+    .hamster{
+      width: 100px;
+    }
+    .hamster:hover{
+      width:150px;
+    }
+    nav a{
+      color: #98c1d9;
+      font-size: 20px;
+      font-weight: bolder;
+      font-style: italic;
+    }
+    nav a:hover{
+      background-color: #ee6c4d;
+      text-decoration: line-through;
+      font-size: 25px;
+      color: #003f63;
+    }
+    section p{
+      background-color: white;
+      font-size: 20px;
+      padding: 20px;
+      border-radius: 10px;
+      border: 3px solid #98c1d9;
+      color: #033f63;
+    }
+    </style>
   </head>
   <body>
-    <h1>Portal Placeholder</h1>
+    <main>
+      <header>
+        <img class="logo"  src="./Assets/pets.jpg" alt="pizza">
+        <h1 class="title">Pets For People!!!!!</h1>
+      </header>
+    <br/>
+      <nav>
+        <ul>
+          <li> <a href="#">Dogs</a></li>
+            <img class="dog"  src="./Assets/dog.jpg" alt="pizza">
+            <li> <a href="#">Cats</a></li>
+          <img class="cat"  src="./Assets/cat.jpg" alt="pizza">
+          <li> <a href="#">Hamsters</a></li>
+          <img class="hamster"  src="./Assets/Hamster.png" alt="pizza">
+       </ul>
+      </nav>
+      <section>
+        <div class="article">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+        <div class="article">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+        </div>
+        <div class="article">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+        </div>
+      </section>
+      <footer>
+      </footer>
   </body>
 </html>

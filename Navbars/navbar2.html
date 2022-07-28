@@ -2,10 +2,87 @@
 <html lang="zxx" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Navbars Assignment</title>
+    <title>Navbar 2</title>
     <style media="screen">
+    main{
+      margin: 100px;
+      background-color: grey;
+      padding: 30px;
+    }
+    header{
+      text-align: center;
+      color: darkred;
+    }
+    .pizza{
+      width: 675px;
+      border-radius: 10px;
+    }
+    .menu{
+      text-align: center;
+      font-size: 40px;
+      background-color: white;
+      border-radius: 10px;
+      color: darkblue;
+
+
+    }
+    nav ul{
+      background-color: white;
+      border-radius: 10px;
+
+    }
+    nav li{
+      list-style-type: none;
+      text-align: center;
+      font-size: 30px;
+      padding: 10px;
+      margin-right: 40px;
+    }
+    nav a{
+      color: #333333;
+      text-decoration: none;
+    }
+    nav a:hover{
+      color: darkred;
+      font-weight: bolder;
+      font-size: 50px;
+    }
+    footer{
+      background-color: white;
+      padding: 30px;
+      border-radius: 10px;
+      margin-top: 40px;
+    }
+    .wings{
+      width: 400px;
+      border-radius: 10px;
+      padding-left: 125px;
+    }
+
+    </style>
   </head>
   <body>
-    <h1>Portal Placeholder</h1>
+
+    <main>
+      <header>
+        <img class="pizza"  src="./Assets/pizza.jpg" alt="pizza">
+      <h1>Sonnys Pizza</h1>
+      </header>
+      <h1 class="menu">Menu</h1>
+      <nav>
+        <ul>
+         <li> <a href="#">Pasta</a></li>
+         <li> <a href="#">Specialty Dinners</a></li>
+         <li> <a href="#">Pizza</a></li>
+         <li> <a href="#">Kid Stuff</a></li>
+         <li> <a href="#">Side Orders</a></li>
+         <li> <a href="#">Desserts</a></li>
+         <li> <a href="#">Drinks</a></li>
+       </ul>
+      </nav>
+      <footer>
+        <img class="wings"  src="./Assets/wings.webp" alt="wings">
+      </footer>
+    </main>
   </body>
 </html>
