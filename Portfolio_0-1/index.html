@@ -17,53 +17,97 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
-        padding: 5%;
-        margin: 10%;
         background-color: #d3d3d3;
       }
       header img{
         width: 20%;
-        border-radius: 20%;
+        border-radius: 50%;
       }
       .site-name{
         font-size: 350%;
         font-family: monospace;
         font-weight: bolder;
+        text-shadow:4px 4px 8px;
       }
+
       main{
       display: flex;
       margin: 10%;
 
       }
+      nav{
+        background-color: #a9a9a9;
+        padding:.1%;
+        margin-top: 1%;
+        margin-bottom: 1%;
+
+      }
+      nav ul{
+        display: flex;
+        justify-content: space-around;
+        font-size: 150%;
+        font-family: monospace;
+        background-color: #d3d3d3;
+        border-radius: 10px;
+      }
       nav li{
         list-style-type: none;
+        padding: 0px 10px;
+        background-color: #d3d3d3;
       }
-      .main-left{
+      nav a{
+          color: #333333;
+          text-decoration: none;
+          text-shadow:2px 2px 6px;
+      }
+      nav a:hover{
+        color: #b11226;
+        transition: 0.5s;
+      }
+      section{
+        background-color: #d3d3d3;
+        padding: 10%;
+      }
 
-        width: 30%;
-        padding: 70px;
-      }
-      .main-right{
-        width: 69%;
-      }
       .card{
         display: block;
-        background-color: grey;
-        padding:20px;
+        background-color: #a9a9a9;
+        padding:10%;
         border-radius:10px;
-        margin-top:50px;
-        border: 3px solid cyan;
+        margin:10%;
+        box-shadow: 7px 7px 7px 7px #303030;
+      }
+      .about{
+        text-align: center;
+        font-size: 200%;
+        color: #1c1c1c;
+        text-shadow:2px 2px 6px;
+        border: 1% solid #303030;
+        padding: 5%;
+        border-radius: 50%;
+        margin-left: 35%;
+        margin-right: 35%;
+        box-shadow: 1px 10px 10px 10px #303030;
+
+
+      }
+      .para{
+        text-align: justify;
       }
     </style>
 
   </head>
   <body>
+
     <header>
       <img src="./Assets/potrait.png" alt="">
-      <h1 class=" site-name">Kendricks Portfolio</h1>
+      <h1 class=" site-name"><pre>  Kendrick West
+Graphic Creations
+    Portfolio</pre></h1>
+      <h2></h2>
     </header>
-    <main>
-    <nav class="main-left">
+
+    <nav>
       <ul>
       <li> <a href="#">Home</a></li>
       <li> <a href="./about.html">About</a></li>
@@ -72,21 +116,28 @@
      </ul>
     </nav>
 
-    <section class="main-right">
+    <section>
       <div class="card">
-        <h4>About</h4>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
+        <h4 class="about">About</h4>
+        <p class="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
            ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
            laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
            voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
-           non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+           non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+           orem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
+              ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+              laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+              voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+              non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              orem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
+                 ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                 laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                 voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+                 non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+         </p>
 
       </div>
     </section>
-
-    </main>
-
-    <h1>Home</h1>
     <footer>
 
     </footer>
