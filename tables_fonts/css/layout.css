@@ -4,23 +4,22 @@ body{
   background-color: lightblue;
 }
 header{
-  display: inline-block;
-  background-color:white;
-  padding: 20px;
+  background: linear-gradient( brown, white);
+  margin-top: 1%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  text-align: center;
   font-family: "Mouse Memoirs";
-  color: brown;
-  border-radius: 5px;
-  margin-left: 45%;
+  color: white;
+
 }
-.sub{
-  margin-left: 45%;
-  margin-bottom: 1%;
-}
+
 
 table{
   font-family: "Mouse Memoirs";
   width: 80%;
   margin: auto;
+  margin-top: 1%;
 }
 #title{
   background-color: brown;
@@ -72,4 +71,23 @@ nav li{
 }
 nav a{
   color: white;
+}
+footer{
+  background: linear-gradient( brown, white);
+  margin-top: 3%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  text-align: center;
+}
+#thumb:hover{
+  color: white;
+  transition: 0.5s ease;
+}
+#face:hover{
+  color: white;
+  transition: 0.5s ease;
+}
+#go:hover{
+  color: white;
+  transition: 0.5s ease;
 }
