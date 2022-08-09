@@ -13,7 +13,7 @@ header{
   margin-left: 45%;
 }
 .sub{
-  margin-left: 46.5%;
+  margin-left: 45%;
   margin-bottom: 1%;
 }
 
@@ -53,6 +53,9 @@ th,td{
 }
 #lope{
   background-color: #f4ae72;
+}
+#strawberry{
+  background-color: #c83f49;
 }
 /* site-styling */
 nav ul{
