@@ -26,7 +26,7 @@ table{
 }
 
 td:hover{
-  color: brown;
+  color: white;
   transition: 0.5s ease;
 }
 
@@ -38,9 +38,9 @@ th{
 tr{
   background-color: white;
 }
-tr:hover{
+/* tr:hover{
   background-color: lightgreen;
-}
+} */
 th,td{
   padding: 5px;
 }
