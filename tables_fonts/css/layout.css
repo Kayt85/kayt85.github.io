@@ -4,24 +4,69 @@ body{
   background-color: lightblue;
 }
 header{
+  display: inline-block;
   background-color:white;
   padding: 20px;
-  text-align: center;
   font-family: "Mouse Memoirs";
+  color: brown;
+  border-radius: 5px;
+  margin-left: 45%;
 }
+.sub{
+  margin-left: 46.5%;
+  margin-bottom: 1%;
+}
+
 table{
   font-family: "Mouse Memoirs";
+  width: 80%;
+  margin: auto;
 }
+#title{
+  background-color: brown;
+}
+
 td:hover{
-  color: red;
+  color: brown;
+  transition: 0.5s ease;
 }
+
 th{
-  padding: 5px 10px;
-  background-color: white;
+  background-color: brown;
   font-size: 24pt;
-  border-radius: 15%;
-  color: red;
+  color: white;
 }
 tr{
-background-color: white;
+  background-color: white;
+}
+tr:hover{
+  background-color: lightgreen;
+}
+th,td{
+  padding: 5px;
+}
+#mango{
+  background-color: #f4bb44;
+}
+#kiwi{
+  background-color: green;
+}
+#lope{
+  background-color: #f4ae72;
+}
+/* site-styling */
+nav ul{
+  display: flex;
+  list-style-type: none;
+  background: linear-gradient( brown, white);
+  border: 1px solid white;
+}
+nav li{
+  padding-left: 3%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+
+}
+nav a{
+  color: white;
 }
