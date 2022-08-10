@@ -57,13 +57,12 @@
       transition: 0.5s;
     }
     main{
-    display: flex;
-    justify-content: space-around;
-    /* margin: 10%; */
     background-color: #d3d3d3;
+    padding-top: 1px;
+    padding-bottom: 1px;
     }
      .h1{
-      /* text-align: center; */
+      text-align: center;
       font-family: monospace;
       font-size: 300%;
       font-weight: bolder;
@@ -78,20 +77,34 @@
     }
     section img{
       width: 25%;
-      /* height: 30%; */
-      /* padding: 1%; */
     }
+
     .wish{
       background-color: #d3d3d3;
-      padding: 1%;
+      padding: 50px;
       margin: 0;
       text-align: justify;
+    }
+    .wish2{
+      background-color: #d3d3d3;
+      padding: 50px;
+      margin: 0;
+      text-align: justify;
+      border-bottom: 5px solid #fafafa;
     }
     .port{
       color: #b11226;
     }
     .p2{
       height:0%;
+    }
+    footer{
+      background: linear-gradient( #d3d3d3, white);
+      margin-top: 5;
+      padding-top: 25px;
+      padding-bottom: 25px;
+      text-align: center;
+      border-top: border: 10px solid black;
     }
     </style>
 
@@ -103,7 +116,6 @@
     <nav>
       <ul>
       <li> <a href="./index.html">Home</a></li>
-      <li> <a href="./about.html">About</a></li>
       <li> <a href="./portfolio.html">Portfolio</a></li>
       <li> <a href="./contact.html">Contact</a></li>
      </ul>
@@ -114,7 +126,6 @@
         <li> <a href="./portfolio.html">Illustration</a></li>
         <li> <a class="port">Photoshop</a></li>
         <li> <a href="./effects.html">After Effects</a></li>
-        <li> <a href="./app.html">Apps</a></li>
       </ul>
     </nav>
 
@@ -128,16 +139,22 @@
         <img src="./Assets/shop4.png" alt="">
       </section>
       <p class="wish">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-      <section>
+      <section class=s2>
         <img src="./Assets/shop2.png" alt="">
         <img src="./Assets/shop5.png" alt="">
         <img src="./Assets/shop6.png" alt="">
       </section>
-      <p class="wish">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <p class="wish2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
-    <footer>
+      <footer>
+        <ion-icon id="thumb" name="thumbs-up-outline"></ion-icon>
+        <ion-icon id="face" name="logo-facebook"></ion-icon>
+        <ion-icon id="go" name="logo-google"></ion-icon>
+      </footer>
 
-    </footer>
+      <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
 
   </body>
 </html>
