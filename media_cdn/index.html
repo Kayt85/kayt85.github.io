@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="zxx" dir="ltr">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./css/layout.css">
+    <title>Media_cdn</title>
+
+  </head>
+  <body>
+    <header>
+      <ion-icon name="rainy-outline"></ion-icon>
+      <h1>Company Name</h1>
+    </header>
+
+    <main>
+      <div class="hero">
+        <!-- embedd a external video -->
+        <iframe id="hero-video"width="560" height="315" src="https://www.youtube.com/embed/FsrMPexJkI4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <!-- embedd internal video -->
+        <video width=" 900px" height="500px" autoplay loop controls>
+          <source src="./assets/production.mp4" type="video/mp4">
+        </video>
+      </div>
+
+      <div class="file-container">
+        <a href="./assets/cover.ai"> <button id="file-button">Click Me</button></a>
+        <a href="./assets/studio.jpg"> <button id="file-button">Pic Me</button></a>
+      </div>
+      <div class="audio-container">
+        <audio class="audio" controls>
+          <source src="./assets/mfh.mp3" type="audio/mp3">
+        </audio>
+      </div>
+    </main>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+
+  </body>
+</html>

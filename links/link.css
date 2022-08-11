@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Mouse+Memoirs&display=swap');
+
+body{
+  margin: 0%;
+  background: linear-gradient( #f0fff0, #ebf1cf);
+}
+header{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-family: "Mouse Memoirs";
+  font-size: 40px;
+}
+header img{
+  width:35%;
+}
+  section a{
+    display: block;
+  }

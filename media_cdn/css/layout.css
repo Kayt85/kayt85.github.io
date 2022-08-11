@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Marker+Hatch&display=swap');
+header h1{
+  text-align: center;
+  font-family: "rubik marker hatch";
+}
+
+#hero-video{
+  width: 100%;
+  height: 600px;
+}
+
+.hero{
+  text-align: center;
+  margin-top: 4%;
+}
+#file-button{
+  background: linear-gradient( black, darkgreen);
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 45%;
+}
+
+#file-button:hover{
+  color: black;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+.audio{
+  margin-left: 35%;
+}
