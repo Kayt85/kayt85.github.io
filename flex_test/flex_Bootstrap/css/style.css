@@ -92,3 +92,10 @@ footer {
 .grid-item img {
     width:100%;
 }
+/* bootstrap css */
+.row .col{
+  background-color: red;
+}
+.col .img{
+  width: 100%;
+}
