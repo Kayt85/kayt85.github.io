@@ -16,11 +16,11 @@
         background-color: #fafafa;
       }
       header{
-        border: 1px solid #a9a9a9;
+        border: 2px solid #f0fff0;
         display: flex;
         align-items: center;
         justify-content: space-between;
-        background-color: #d3d3d3;
+        background-color: #65000b;
       }
       header img{
         width: 20%;
@@ -28,14 +28,15 @@
         margin-left: 5%;
       }
       .site-name{
-        font-size: 350%;
+        color: #f0fff0;
+        font-size: 450%;
         font-family: monospace;
         font-weight: bolder;
-        text-shadow: 1px 1px 5px #555;
+        text-shadow: 0px 0px 2px #f3e5ab;
       }
 
       nav{
-        background-color: #a9a9a9;
+        background-color: #65000b;
         padding:.1%;
         margin-top: 1%;
         margin-bottom: 1%;
@@ -46,53 +47,66 @@
         justify-content: space-around;
         font-size: 150%;
         font-family: monospace;
-        background-color: #d3d3d3;
+        background-color: #f3e5ab;
+        border: 1px solid #f0fff0;
         border-radius: 10px;
       }
       nav li{
         list-style-type: none;
         padding: 0px 10px;
-        background-color: #d3d3d3;
+        background-color: #f3e5ab;
+
       }
       nav a{
-          color: #333333;
+          color: #65000b;
           text-decoration: none;
-          text-shadow:2px 2px 6px;
+          font-weight: bolder;
       }
       nav a:hover{
-        color: #b11226;
+        color: #007ba7;
         transition: 0.5s;
       }
       section{
-        background-color: #d3d3d3;
-        padding: 10%;
+        border: 2px solid #f0fff0;
+        background-color: #65000b;
+        padding-left: 10%;
+        padding-right: 10%;
+        padding-bottom: 5%;
       }
 
       .card{
-        display: block;
-        background-color: #a9a9a9;
-        padding:10%;
-        border-radius:10px;
-        /* margin:10%; */
-        box-shadow: 7px 7px 7px 7px #303030;
+        background: radial-gradient( #f0fff0 75%, #f3e5ab);
+        margin-top: 3%;
+        border-radius: 10px;
+        padding: 3%;
+        box-shadow: 2px 2px 5px 3px #f3e5ab;
       }
       .about{
         text-align: center;
-        font-size: 200%;
-        color: #1c1c1c;
-        text-shadow:2px 2px 6px;
-        border: 1% solid #303030;
-        padding: 5%;
-        border-radius: 50%;
-        margin-left: 35%;
-        margin-right: 35%;
-        box-shadow: 1px 10px 10px 10px #303030;
+        font-family: monospace;
+        font-weight: bolder;
+        font-size: 100px;
+        color: #65000b;
+        text-shadow: 0px 0px 12px #f3e5ab;
+        border: 2px solid #f3e5ab;
+        margin: 5%;
+        border-top: 0px;
+        border-radius: 50%
       }
       .para{
+        margin-top: 0%;
         text-align: justify;
       }
       .home{
-        color: #b11226;
+        color: #65000b;
+      }
+      footer{
+        background-color: #65000b;
+        margin-top: 1%;
+        padding-top: 5%;
+        padding-bottom: 4%;
+        text-align: center;
+        border: 2px solid#f0fff0;
       }
     </style>
 
@@ -138,8 +152,13 @@ Graphic Creations
       </div>
     </section>
     <footer>
-
+      <ion-icon id="thumb" name="thumbs-up-outline"></ion-icon>
+      <ion-icon id="face" name="logo-facebook"></ion-icon>
+      <ion-icon id="go" name="logo-google"></ion-icon>
     </footer>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
   </body>
 </html>
