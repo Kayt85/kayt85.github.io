@@ -9,18 +9,18 @@ header h1{
   text-align: center;
   font-size: 60px;
   font-family: "mouse memoirs";
-  padding-left: 20%;
   margin-top: 3%;
 }
 header img{
   width:100%;
   height: 600px;
-  padding-left: 10%;
-  padding-right: 10%;
-
+  padding-left: 5%;
+  padding-right: 5%;
+  box-sizing: border-box;
 }
-section{
-padding-left: 20%;
+.spacer{
+  background-color: #000000;
+  height: 100px;
 }
   section a{
     display: block;
