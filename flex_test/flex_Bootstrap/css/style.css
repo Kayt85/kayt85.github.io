@@ -96,6 +96,6 @@ footer {
 .row .col{
   background-color: red;
 }
-.col .img{
+.col img{
   width: 100%;
 }
