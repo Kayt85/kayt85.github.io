@@ -1,0 +1,49 @@
+
+body{
+  margin: 0;
+}
+
+#main-page{
+  margin: 5%;
+  box-sizing: border-box;
+  width: 90%;
+  border: 5px solid #e1a177;
+  margin: 5% auto;
+}
+/* header css */
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/* nav css */
+nav{
+
+}
+nav ul{
+  display: flex;
+  margin: 0;
+  padding-left: 0;
+  justify-content: space-around;
+}
+nav li{
+  list-style-type: none;
+}
+nav a{
+  text-decoration: none;
+  color: #e1a177;
+}
+/* content css */
+Main{
+
+}
+/* footer css */
+footer{
+
+}
+.header-right img{
+  width: 100%;
+}
+.footer-left img{
+  width: 100%;
+}
