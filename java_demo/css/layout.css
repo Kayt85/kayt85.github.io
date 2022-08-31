@@ -9,27 +9,37 @@ body{
   margin: 5%;
   box-sizing: border-box;
   width: 90%;
+  /* height: 2000px; */
   border: 5px solid #e1a177;
   margin: 5% auto;
+  border-radius: 15px;
 }
 /* header css */
 header{
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 .header-left{
   font-family: "Lobster";
+  font-size: 30px;
+  padding-left: 50px;
+
 }
 /* nav css */
 nav{
-
+  border-top: 5px solid #e1a177;
+  border-bottom: 5px solid #e1a177;
 }
 nav ul{
   display: flex;
   margin: 0;
   padding-left: 0;
   justify-content: space-around;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 nav li{
   list-style-type: none;
@@ -45,12 +55,19 @@ main{
 /* footer css */
 footer{
   display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 100px;
 }
 .header-right img{
   width: 100%;
 }
+footer{
+  border-top: 5px solid #e1a177;
+}
 .footer-left img{
-  width: 100%;
+  width: 50%;
+  padding-left: 10px;
 
 }
 .footer-left{
@@ -58,14 +75,46 @@ footer{
 }
 .footer-center{
   flex: 1;
+  background-color: #e1a177;
+  padding: 10px;
 }
 .footer-right{
   flex: 1;
+  background-color: #e1a177;
+  padding: 10px;
 }
 /* js demo 1 */
 .about-text{
   display: none;
+  padding-bottom: 20px;
+  text-align: justify;
+  padding: 10px;
 }
+/* .about-button{
+  margin-bottom: 20px;
+} */
 .reveal{
   display: block;
+}
+#date-element{
+  text-align: center;
+  color: white;
+}
+.time-wrapper{
+  background-color: #e1a177;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+  background-image: url("../assets/photo4.jpeg");
+  background-size:100%;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  /* background-attachment:scroll;  */
+
+}
+.h4{
+  font-size: 50px;
+  color: white;
 }
