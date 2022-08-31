@@ -10,7 +10,7 @@ body{
   box-sizing: border-box;
   width: 90%;
   /* height: 2000px; */
-  border: 5px solid #e1a177;
+  border: 5px solid #000;
   margin: 5% auto;
   border-radius: 15px;
 }
@@ -21,17 +21,19 @@ header{
   align-items: center;
   padding-top: 15px;
   padding-bottom: 15px;
+  background-color: #000;
 }
 .header-left{
   font-family: "Lobster";
   font-size: 30px;
   padding-left: 50px;
+  color: #fff;
 
 }
 /* nav css */
 nav{
-  border-top: 5px solid #e1a177;
-  border-bottom: 5px solid #e1a177;
+  border-top: 5px solid #000;
+  border-bottom: 5px solid #000;
 }
 nav ul{
   display: flex;
@@ -63,7 +65,7 @@ footer{
   width: 100%;
 }
 footer{
-  border-top: 5px solid #e1a177;
+  border-top: 5px solid #000;
 }
 .footer-left img{
   width: 50%;
@@ -78,10 +80,16 @@ footer{
   background-color: #e1a177;
   padding: 10px;
 }
+.footer-center li{
+  list-style-type: none;
+}
 .footer-right{
   flex: 1;
   background-color: #e1a177;
   padding: 10px;
+}
+.footer-right li{
+  list-style-type: none;
 }
 /* js demo 1 */
 .about-text{
