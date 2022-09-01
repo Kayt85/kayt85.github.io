@@ -185,10 +185,18 @@ footer h3{
   .carousel-wrapper{
     width: 400px;
     margin: auto;
-}
-.footer-center, .footer-right{
+  }
+  .footer-center, .footer-right{
   font-size: 10px;
-}
-.footer-center h3, .footer-right h3{
+  }
+  .footer-center h3, .footer-right h3{
   font-size: 15px;
+  }
+  header h1{
+    font-size: 40px;
+  }
+  .header-right img{
+    width: 75%;
+  }
+
 }
