@@ -61,18 +61,26 @@
       main h1, h4{
         text-align: center;
       }
+      .section-left{
+        flex: 2;
+        padding-left: 20px;
+      }
       .section-center{
-        display: inline-grid;
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        padding-right: 20px;
+      }
+      .section-right{
+        flex: 1;
+        padding-right: 20px;
       }
       section{
         display: flex;
         align-items: center;
         justify-content: space-around;
       }
-      /* .section-left{
-        padding-top: 100px;
-      } */
-
       .name{
         background-color: blue;
         padding-right: 300px;
@@ -91,8 +99,8 @@
         padding-bottom: 200px;
         border: 2px solid black;
       }
-      .send{
-
+      .hr{
+        width: 300px;
       }
 
     </style>
@@ -111,23 +119,30 @@
     </nav>
 
     <main>
-      <h1>I'd♥️ to help!</h1>
+      <h1>I'd ♥️ to help!</h1>
       <h4>I enjoy creating things with fun, open-minded people. Feel free to say hello!</h4>
     <section>
       <div class="section-left">
         <h3 class="name">YOUR NAME</h3>
         <h3 class="mail">EMAIL</h3>
         <h3 class="message">MESSAGE</h3>
-        <h3 class="send">SEND</h3>
+        <div class="about-button-wrapper">
+          <button class=" about-button" onclick="toggleContent()" type="button" name="button">Send</button>
+        </div>
       </div>
+
+
       <div class="section-center">
         <ion-icon name="mail-outline"></ion-icon>
         <ion-icon name="call-outline"></ion-icon>
       </div>
-      <div class="section-right">
+       <div class="section-right">
         <p>kentrell.west85@gmail.com</p>
         <p>901-671-3144</p>
-      </div>
+        <hr/ class="hr">
+       </div>
+
+
     </section>
     </main>
     <footer>
