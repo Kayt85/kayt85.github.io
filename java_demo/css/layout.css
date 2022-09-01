@@ -28,7 +28,12 @@ header{
   font-size: 30px;
   padding-left: 50px;
   color: #fff;
-
+}
+.header-right img{
+  width: 100%;
+}
+header h1{
+  text-shadow: 10px 0px 20px #fff;
 }
 /* nav css */
 nav{
@@ -52,40 +57,61 @@ nav a{
 }
 /* content css */
 main{
-  height: 500px;
+  height: 400px;
+}
+section{
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+ /* aside css */
+aside{
+ background-color: #000;
+ color: white;
+ padding-top: 25px;
+ padding-bottom: 15px;
+ border: 2px solid white;
+ border-radius: 5px;
+}
+.carousel-wrapper{
+  width: 600px;
+  margin: auto;
 }
 /* footer css */
 footer{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: 100px;
+  margin-top: 10px;
 }
-.header-right img{
-  width: 100%;
-}
+
 footer{
   border-top: 5px solid #000;
+  background-color: #000;
+}
+footer h3{
+  color: white;
 }
 .footer-left img{
   width: 50%;
   padding-left: 10px;
-
 }
 .footer-left{
     flex: 2;
 }
 .footer-center{
   flex: 1;
-  background-color: #e1a177;
   padding: 10px;
 }
 .footer-center li{
   list-style-type: none;
 }
+.footer-center a, .footer-right a{
+  color: white;
+}
 .footer-right{
   flex: 1;
-  background-color: #e1a177;
   padding: 10px;
 }
 .footer-right li{
@@ -98,9 +124,11 @@ footer{
   text-align: justify;
   padding: 10px;
 }
-/* .about-button{
-  margin-bottom: 20px;
-} */
+.about-button-wrapper{
+  color: #e1a177;
+  padding-left: 15px;
+}
+
 .reveal{
   display: block;
 }
@@ -109,20 +137,43 @@ footer{
   color: white;
 }
 .time-wrapper{
-  background-color: #e1a177;
+  background-color: #000;
   height: 400px;
   display: flex;
   align-items: center;
   flex-direction: column;
   justify-content: space-around;
-  background-image: url("../assets/photo4.jpeg");
+  background-image: url("../assets/photo41.jpg");
   background-size:100%;
   background-repeat: no-repeat;
-  background-position: bottom;
+  background-position: center;
   /* background-attachment:scroll;  */
+}
 
+#date-element{
+  color: #e1a177;
+  font-size: 50px;
+  font-weight: bolder;
 }
 .h4{
   font-size: 50px;
+  font-weight: bolder;
   color: white;
+  margin-top: 0;
+}
+    /* responsive css */
+@media screen and (max-width: 900px){
+  .time-wrapper{
+    background-position: top;
+  }
+  .about-text{
+    font-size: 12px;
+  }
+  #date-element{
+    color: white;
+    font-size: 30px;
+  }
+  .carousel-wrapper{
+    width: 400px;
+    margin: auto;
 }
