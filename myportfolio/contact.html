@@ -58,12 +58,19 @@
       .contact{
         color: #007ba7;
       }
+      main{
+        background-color: #65000b;
+        border: 2px solid #f0fff0;
+      }
       main h1, h4{
         text-align: center;
+        color: #f0fff0;
       }
       .section-left{
         flex: 2;
         padding-left: 20px;
+        margin-top: 80px;
+        color: #65000b;
       }
       .section-center{
         flex: 1;
@@ -71,10 +78,14 @@
         flex-direction: column;
         align-items: flex-end;
         padding-right: 20px;
+        padding: 15px;
+        color: #007ba7;
       }
       .section-right{
         flex: 1;
         padding-right: 20px;
+        text-align: center;
+        color: #f0fff0;
       }
       section{
         display: flex;
@@ -82,27 +93,45 @@
         justify-content: space-around;
       }
       .name{
-        background-color: blue;
+        background-color: #f3e5ab;
         padding-right: 300px;
         padding-bottom: 10px;
-        border: 2px solid black;
+        border: 2px solid #f0fff0;
       }
       .mail{
-        background-color: blue;
+        background-color: #f3e5ab;
         padding-right: 300px;
         padding-bottom: 10px;
-        border: 2px solid black;
+        border: 2px solid #f0fff0;
       }
       .message{
-        background-color: blue;
+        background-color: #f3e5ab;
         padding-right: 300px;
         padding-bottom: 200px;
-        border: 2px solid black;
+        border: 2px solid #f0fff0;
+      }
+      .about-button:hover{
+        color: #007ba7;
+        transition: 0.5s;
+        cursor: pointer;
       }
       .hr{
         width: 300px;
       }
-
+      .spacer{
+        height: 200px;
+      }
+      footer{
+        background-color: #65000b;
+        margin-top: 1%;
+        padding-top: 5%;
+        padding-bottom: 4%;
+        text-align: center;
+        border: 2px solid#f0fff0;
+      }
+      #thumb, #face, #go{
+        color: #007ba7;
+      }
     </style>
 
   </head>
@@ -141,15 +170,18 @@
         <p>901-671-3144</p>
         <hr/ class="hr">
        </div>
-
-
     </section>
+    <div class="spacer">
+
+    </div>
     </main>
+
     <footer>
       <ion-icon id="thumb" name="thumbs-up-outline"></ion-icon>
       <ion-icon id="face" name="logo-facebook"></ion-icon>
       <ion-icon id="go" name="logo-google"></ion-icon>
     </footer>
+
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
