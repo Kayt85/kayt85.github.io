@@ -41,6 +41,8 @@
         background-color: #f3e5ab;
         border: 1px solid #f0fff0;
         border-radius: 10px;
+
+
       }
       nav li{
         list-style-type: none;
@@ -141,18 +143,15 @@
         color: #007ba7;
       }
       @media screen and (max-width: 900px){
-        .name, .mail, .message{
-          padding-right: 200px;
-          font-size: 10px;
-        }
-        .hr{
-          width: 200px;
-        }
+
         nav{
           font-size: 10px;
         }
         .spacer{
           height: 275px;
+        }
+        section{
+          flex-direction: column;
         }
       }
     </style>
@@ -182,7 +181,6 @@
           <button class=" about-button" onclick="toggleContent()" type="button" name="button">Send</button>
         </div>
       </div>
-
 
       <div class="section-center">
         <ion-icon name="mail-outline"></ion-icon>
