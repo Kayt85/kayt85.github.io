@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="zxx" dir="ltr">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./css/layout.css">
+    <title>PLACEHOLDER</title>
+
+    <style media="screen">
+
+      body{
+        margin: 0;
+        background-color: #f0fff0;
+      }
+      .space{
+        width: 25%;
+      }
+      header{
+        display: flex;
+        align-items: center;
+      }
+
+      header img{
+        width: 160px;
+      }
+      .donate-button{
+        background-color: yellow;
+        margin-left: 10px;
+        color: green;
+        font-weight: bolder;
+      }
+      nav{
+        background-color: white;
+        padding: 40px;
+
+      }
+      nav ul{
+        display: flex;
+        justify-content: flex-end;
+      }
+      nav li{
+        list-style-type: none;
+        padding: 0px 20px;
+        background-color: lightgreen;
+        border-radius: 10px;
+      }
+      nav a{
+          color: #65000b;
+          text-decoration: none;
+          font-weight: bolder;
+      }
+      nav a:hover{
+        color: white;
+        transition: 0.5s;
+      }
+      main{
+        width: 100%;
+        margin: auto;
+      }
+      main p{
+        font-weight: bolder;
+        width: 200px;
+        text-align: center;
+      }
+      .about{
+        font-size: 70px;
+        text-align: center;
+        color: darkgreen;
+      }
+      .card{
+        background-color: lightgreen;
+        width: 75%;
+        margin: auto;
+        padding-bottom: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+        border: 5px solid lightgreen;
+        border-radius: 15px;
+        margin-top: 20px;
+      }
+
+      .time-wrapper{
+        background-color: #000;
+        height: 400px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-around;
+        background-image: url("./assets/time-wrapper.jpg");
+        background-size:100%;
+        background-repeat: no-repeat;
+        background-position: top;
+        margin: auto;
+        /* background-attachment:scroll;  */
+      }
+      footer{
+        background-color: white;
+        margin-top: 1%;
+        padding-top: 5%;
+        padding-bottom: 4%;
+        text-align: center;
+        border: 2px solid#f0fff0;
+      }
+      #thumb, #face, #go{
+        color: lightgreen;
+      }
+
+
+    </style>
+
+  </head>
+  <body>
+    <header>
+      <div class="space">
+
+      </div>
+        <img src="./assets/plant.png" alt="logo">
+          <nav>
+            <ul>
+            <li> <a href="#">Green Foundation</a></li>
+            <li> <a href="#">About</a></li>
+            <li> <a href="#">Projects</a></li>
+            <li> <a href="#">News</a></li>
+            <li> <a href="#">Get Involved</a></li>
+            <li> <a href="#">Contact Us</a></li>
+           </ul>
+          </nav>
+          <div class="about-button-wrapper">
+
+            <button class=" donate-button" onclick="toggleContent()" type="button" name="button">Donate</button>
+
+    </header>
+
+
+      <main>
+        <div class="time-wrapper">
+          <h2>Planting the Seeds of the Future</h2>
+          <p>Poverty and environmental degredation are intrinsically linked. By healing the environment, we can heal lives as well.</p>
+        </div>
+      </main>
+      <section>
+        <div class="card">
+          <h4 class="about">About</h4>
+          <p class="para">
+            The Green Foundation was founded in August 2005 and is a non-profit organization that aims to assist and uplift rural communities with the support of environmental projects. We have raised more than R 4 million to date and have won the Hope Award in 2007 and 2016. To date, we have assisted 45 rural communities in India, USA and Australia and planted more than 30,000 trees. For a full outline of our projects per area, please see our project booklet, attached. Our staff currently includes two full time project coordinators, a marketing coordinator and five administrative staff members. We also have four part time volunteers during various stages of the year. Our main message is that poverty and environmental degradation are intrinsically linked. By educating communities to respect the environment, opportunities for income generation are created.
+           </p>
+        </div>
+      </section>
+
+      <footer>
+        <ion-icon id="thumb" name="thumbs-up-outline"></ion-icon>
+        <ion-icon id="face" name="logo-facebook"></ion-icon>
+        <ion-icon id="go" name="logo-google"></ion-icon>
+      </footer>
+
+      <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+      <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+  </body>
+</html>
